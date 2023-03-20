@@ -5,3 +5,4 @@ metadata:
   namespace: {{ .Release.Namespace }}
 data:
   sayHi: {{ .Values.myString }}
+  someKey: someValue
